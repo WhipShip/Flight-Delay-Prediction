@@ -145,24 +145,20 @@ Key visualizations produced throughout the project:
 
 | Model | Avg Train R² | Avg Test R² |
 |---|---|---|
-| Linear Regression | — | — |
-| Ridge Regression | — | — |
-| Polynomial Regression | — | — |
-| Poly-Ridge Regression | — | — |
-| **Random Forest** | — | — |
-
-> ℹ️ Fill in R² scores from notebook cell outputs to complete this table.
+| Linear Regression | 0.78 | 0.69 |
+| Ridge Regression | 0.78 | 0.70 |
+| Polynomial Regression | 0.94 | -inf |
+| Poly-Ridge Regression | 0.84 | 0.71 |
+| **Random Forest** | 0.96 | 0.83 |
 
 ### Classification
 
 | Model | Accuracy |
 |---|---|
-| Logistic Regression | — |
+| Logistic Regression | 72.37% |
 | KNN (K=3) | — |
-| Random Forest (Price Tier) | — |
+| Random Forest | 85.26% |
 | Gaussian Naive Bayes | — |
-
-> ℹ️ Fill in accuracy scores from notebook cell outputs to complete this table.
 
 ---
 
