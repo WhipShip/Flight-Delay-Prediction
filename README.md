@@ -191,7 +191,7 @@ cd Smartphone-Price-Prediction
 
 ### Running the Interactive Dashboard (Local)
 
-The repository includes a fully interactive Streamlit web dashboard (`dashboard.py` / `app.py`) that allows you to explore the data, adjust model parameters in real-time, and input custom phone specifications for live price predictions.
+The repository includes a fully interactive Streamlit web dashboard (`dashboard.py`) that allows you to explore the data, adjust model parameters in real-time, and input custom phone specifications for live price predictions.
 
 1. **Install the required libraries** using your terminal or command prompt:
    ```bash
@@ -202,7 +202,6 @@ The repository includes a fully interactive Streamlit web dashboard (`dashboard.
    ```bash
    streamlit run dashboard.py
    ```
-   *(Note: If your file is named `app.py`, use `streamlit run app.py` instead).*
 4. A browser window will automatically open at `http://localhost:8501/` where you can interact with the models.
 
 ---
