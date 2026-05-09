@@ -27,7 +27,7 @@ This project applies supervised machine learning — both regression and classif
 Smartphone pricing is driven by a complex mix of hardware specifications, brand positioning, and feature trade-offs. This project tackles that complexity through two parallel ML tracks:
 
 - **Regression** — Predict a smartphone's exact price (₹) from its specifications.
-- **Classification** — Assign each device to a market tier: **Budget**, **Mid-Range**, **Premium**, or **Flagship**.
+- **Classification** — Assign each device to a market tier: **Budget**, **Mid-Range**, or **Premium**.
 
 Both tracks use 5-fold cross-validation to ensure robust, generalizable performance estimates.
 
@@ -106,9 +106,8 @@ Phones are assigned to price tiers using the following thresholds (₹):
 | Category | Price Range |
 |---|---|
 | 🟢 Budget | < ₹15,000 |
-| 🔵 Mid-Range | ₹15,000 – ₹30,000 |
-| 🟠 Premium | ₹30,000 – ₹60,000 |
-| 🔴 Flagship | > ₹60,000 |
+| 🔵 Mid-Range | ₹15,000 – ₹60,000 |
+| 🟠 Premium | > ₹60,000 |
 
 **Models evaluated:**
 
