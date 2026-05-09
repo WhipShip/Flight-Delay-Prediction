@@ -208,5 +208,11 @@ The repository includes a fully interactive Streamlit web dashboard (`dashboard.
 
 ## Authors
 
-Developed as a final project for the **Data Science and Methodology Course**  
+Developed as a final project for the **Data Science and Methodology Course**
+Team:
+- Moahmed Ezzat Elshanouri
+- Maryam Mohamed Rageh
+- Abdelrahman ElKhashab
+- Mariam Mohamed Hassan
+- Abdullah Helmy
 **Egyptian University of Informatics**
