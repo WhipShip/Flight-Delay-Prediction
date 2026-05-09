@@ -165,28 +165,45 @@ Key visualizations produced throughout the project:
 ## Tech Stack
 
 - **Language:** Python 3
-- **Environment:** Google Colab
+- **Environment:** Google Colab / Local IDE
 - **Core Libraries:**
   - `pandas`, `numpy` — data manipulation
   - `scikit-learn` — modelling, pipelines, cross-validation
   - `matplotlib`, `seaborn` — visualization
+  - `streamlit` — interactive web dashboard UI
 
 ---
 
 ## Getting Started
 
-1. **Clone the repository**
+First, clone the repository to your local machine:
+```bash
+git clone https://github.com/WhipShip/Smartphone-Price-Prediction.git
+cd Smartphone-Price-Prediction
+```
+
+### Running the Notebook (Google Colab)
+
+1. Upload the `Smartphone_Specifications_Dataset.csv` to your Google Drive.
+2. Open the `.ipynb` file in Google Colab.
+3. Update the dataset path in the notebook's loading cell to match your Drive location.
+4. Execute the cells top to bottom to step through the data cleaning, modeling, and visualization phases.
+
+### Running the Interactive Dashboard (Local)
+
+The repository includes a fully interactive Streamlit web dashboard (`dashboard.py` / `app.py`) that allows you to explore the data, adjust model parameters in real-time, and input custom phone specifications for live price predictions.
+
+1. **Install the required libraries** using your terminal or command prompt:
    ```bash
-   git clone https://github.com/WhipShip/Smartphone-Price-Prediction.git
-   cd Smartphone-Price-Prediction
+   pip install streamlit pandas numpy matplotlib seaborn scikit-learn
    ```
-
-2. **Open in Google Colab**
-   - Upload `Smartphone_Specifications_Dataset.csv` to your Google Drive
-   - Update the dataset path in the notebook's loading cell to match your Drive location
-
-3. **Run the notebook**
-   - Execute cells top to bottom — cleaning → scaling → regression → classification → visualization
+2. **Ensure the dataset is present**: Make sure `Smartphone_Specifications_Dataset.csv` is located in the exact same folder as the dashboard python file.
+3. **Launch the dashboard**:
+   ```bash
+   streamlit run dashboard.py
+   ```
+   *(Note: If your file is named `app.py`, use `streamlit run app.py` instead).*
+4. A browser window will automatically open at `http://localhost:8501/` where you can interact with the models.
 
 ---
 
