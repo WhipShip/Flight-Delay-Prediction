@@ -156,9 +156,10 @@ Key visualizations produced throughout the project:
 | Model | Accuracy |
 |---|---|
 | Logistic Regression | 72.37% |
-| KNN (K=3) | — |
+| Gaussian Naive Bayes (Pricing) | 78% |
+| KNN (K=3) | 72% |
 | Random Forest | 85.26% |
-| Gaussian Naive Bayes | — |
+| Gaussian Naive Bayes (Ratings) | 49% |
 
 ---
 
